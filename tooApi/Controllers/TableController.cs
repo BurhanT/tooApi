@@ -24,10 +24,10 @@ namespace tooApi.Controllers
                 //context.Tables.Add(user);
 
                 //Get all Users from Table
-                return context.Tables.ToList();
+                //return context.Tables.ToList();
 
                 //Get user by ID
-                //return context.Tables.Where(auth => auth.Id == 1).ToList();
+                return context.Tables.Where(auth => auth.Id == 1).ToList();
 
 
 
